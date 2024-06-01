@@ -1,0 +1,231 @@
+body{
+    background-color: #121e27;
+    font-family:Century Gothic;
+    color:white;
+}
+header{
+    background-color: #121e27;
+    height: 60px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+.for{
+    background-image: url('../image/trenirovka-dlya-zhirozhiganiya.webp');
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.panel{
+    position: fixed;
+    top: 0px;
+    background-color: #0e151b;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+    z-index: 10;
+}
+h1{
+    
+    background-color: #121e27;
+}
+.ft{
+    text-align: center;
+}
+.ss{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    border-bottom: #0e151b;
+    color: white;
+    text-decoration:none;
+}
+.s1{
+    background-color:white;
+    color:#0e151b;
+    padding: 15px;
+}
+.ss:hover{
+    border-bottom: #2ddfd1 3px solid;
+    padding-bottom: 5px;
+    color:#2ddfd1;
+    transition: 0.3s;
+}
+.tren{
+    background-color: #0e151b;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+}
+.vv{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    border-bottom: #0e151b;
+    color: white;
+    font-style:inherit;
+    text-decoration:none;
+}
+.vv:hover{
+    border-bottom: #2ddfd1 3px solid;
+    padding-bottom: 5px;
+    color:#2ddfd1;
+    transition: 0.3s;
+}
+.cv{
+    background-color:white;
+    color:#0e151b;
+    padding: 15px;
+    border-bottom: #0e151b;
+}
+main{
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.courses{
+    display: inline-block;
+    background-color:#0e151b;
+    margin: 15px;
+    padding: 40px 0 0 0px;
+    border-radius: 15px;
+    border: solid 3px #4b6174;
+    font-size: 25px;
+    font-weight: 600;
+    height: 80px;
+    width: 1400px;
+    
+}
+.xx{
+    margin: 0 0px 0 240px;
+    padding-bottom: 15px;
+    border-bottom: #0e151b;
+    color: white;
+    font-style:inherit;
+    text-decoration:none;
+    display: inline;
+}
+.mm{
+    margin: 30px;
+}
+.xm{
+    margin-right: 70px;
+}
+input[type='text'] {
+    transform: scale(1.5);
+    width: 300px;
+}
+/*
+input[type='checkbox'] {
+    transform: scale(3);
+    
+  }
+  
+input[type='checkbox']:checked {
+    background-color:#2ddfd1;
+}
+*/
+input[type="checkbox"]:checked, 
+input[type="checkbox"]:not(:checked)
+{
+    position: absolute;
+    left: -9999px;
+}
+
+input[type="checkbox"]:checked + label, 
+input[type="checkbox"]:not(:checked) + label{
+    display: inline-block;
+    position: relative;
+    padding-left: 28px;
+    line-height: 20px;
+    cursor: pointer;
+}
+
+input[type="checkbox"]:checked + label:before, 
+input[type="checkbox"]:not(:checked) + label:before{
+    content: "";
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    width: 18px;
+    height: 18px;
+    border: 3px solid #2ddfd1;
+    background-color: #0e151b;
+    transform: scale(1.5);
+}
+
+input[type="checkbox"]:checked + label:before, 
+input[type="checkbox"]:not(:checked) + label:before {
+    border-radius: 4px;
+}
+
+
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after{
+    content: "";
+    position: absolute;
+    -webkit-transition: all 0.2s ease;
+    -moz-transition: all 0.2s ease;
+    -o-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+}
+
+input[type="checkbox"]:checked + label:after, 
+input[type="checkbox"]:not(:checked) + label:after {
+    left: 3px;
+    top: 3px;
+    width: 15px;
+    height: 10px;
+    border-radius: 2px;
+    border-left: 4px solid #2ddfd1;
+    border-bottom: 4px solid #2ddfd1;
+    -webkit-transform: rotate(-45deg);
+    -moz-transform: rotate(-45deg);
+    -o-transform: rotate(-45deg);
+    -ms-transform: rotate(-45deg);
+    transform: rotate(-45deg);
+}
+
+
+input[type="checkbox"]:not(:checked) + label:after{
+    opacity: 0;
+}
+input[type="checkbox"]:checked + label:after{
+    opacity: 1;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
