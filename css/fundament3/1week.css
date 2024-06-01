@@ -1,0 +1,200 @@
+body{
+    background-color: #121e27;
+    font-family:Century Gothic;
+    color:white;
+    text-decoration: none;
+}
+header{
+    background-color: #121e27;
+    height: 100px;
+    padding-top: 120px;
+    
+}
+.for{
+    background-image: url('../image/trenirovka-dlya-zhirozhiganiya.webp');
+    height: 300px;
+    width: 500px;
+    background-size: cover;
+    background-position: center;
+    display: inline-block;
+    text-align: center;
+    margin-bottom: 20px;
+}
+.panel{
+    position: fixed;
+    top: 0px;
+    background-color: #080e13;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+}
+.panel2{
+    position: fixed;
+    top: 49px;
+    background-color: #0e151b;
+    padding: 30px 15px;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+}
+h1{
+    
+    background-color: #121e27;
+}
+.ft{
+    text-align: center;
+    
+}
+.ss{
+    padding: 15px;
+    margin: 0 15px;
+    color: #414a52;
+    text-decoration:none;
+    border: #414a52 3px solid;
+    border-radius: 10px;
+}
+.s11{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    border-bottom: #0e151b;
+    color: white;
+    text-decoration:none;
+
+}
+.s11:hover{
+    /*
+    border-bottom: #2ddfd1 3px solid;
+    padding-bottom: 5px;
+    */
+    color:#2ddfd1;
+    transition: 0.3s;
+}
+
+.ss:hover{
+    border: #2ddfd1 3px solid;
+    color:#ffffff;
+    transition: 0.6s;
+}
+.sd{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    border-bottom: #0e151b;
+    color: white;
+    text-decoration:none;
+}
+/*
+.s1{
+    background-color:white;
+    color:#0e151b;
+    padding: 15px;
+}
+*/
+.sd:hover{
+    border-bottom: #2ddfd1 3px solid;
+    padding-bottom: 5px;
+    color:#2ddfd1;
+    transition: 0.3s;
+}
+.tren{
+    background-color: #0e151b;
+    padding: 15px;
+    width: 100%;
+    text-align: center;
+    text-decoration:none;
+}
+.vv{
+    margin-left: 15px;
+    margin-right: 15px;
+    padding-bottom: 15px;
+    border-bottom: #0e151b;
+    color: white;
+    font-style:inherit;
+    text-decoration:none;
+}
+.vv:hover{
+    border-bottom: #2ddfd1 3px solid;
+    padding-bottom: 5px;
+    color:#2ddfd1;
+    transition: 0.3s;
+}
+.av{
+    background-color:white;
+    color:#0e151b;
+    padding: 15px;
+    border-bottom: #0e151b;
+}
+article{
+    text-align: center;
+    margin: 40px 0 0 0;
+}
+
+.courses{
+    display: block;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../image/trenirovka-dlya-zhirozhiganiya.webp');
+    height: 300px;
+    font-size: 45px;
+    font-weight: 600;
+    text-align:left;
+    text-align: unset;
+    color: #ffffff;
+    text-decoration: none;
+}
+.a1{
+    background-image: url('../../image/almaz2.jpg');
+}
+.a2{
+    background-image: url('../../image/turnik.jpg');
+}
+.a3{
+    background-image: url('../../image/almaz2.jpg');
+}
+.b1{
+    background-image: url('../../image/bitseps.jpg');
+}
+.b2{
+    background-image: url('../../image/tritseps.jpg');
+}
+.b3{
+    background-image: url('../../image/delta2.jpg');
+}
+.g1{
+    display: inline-block;
+    background-size: cover;
+    background-position: center;
+    background-image: url('../../image/trenirovka-dlya-zhirozhiganiya.webp');
+    padding: 20px 300px 10px 30px;
+    margin: 20px;
+    height: 150px;
+    width: 400px;
+    border-radius: 15px;
+    border: solid 3px #2ddfd1;
+    font-size: 25px;
+    font-weight: 600;
+}
+.tt{
+margin-left:90px;
+margin-bottom: 80px;
+text-decoration: none;
+color: white;
+
+}
+video{
+    width: 800px;
+}
+.panel3{
+    position: fixed;
+    top: 50px;
+    background-color: #0e151b;
+    padding: 15px;
+    width: 60px;
+    text-decoration:none;
+    text-align: center;
+    left: 0px;
+    font-size: 34px;
+    font-weight:600;
+}
